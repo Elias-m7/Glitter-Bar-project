@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient(
+      #f491f5 1.9500000000000002px,
+      transparent 1.9500000000000002px
+    ),
+    radial-gradient(#f491f5 1.9500000000000002px, #ffffff 1.9500000000000002px);
+  background-size: 78px 78px;
+  background-position: 0 0, 39px 39px;
+}
+
+.header {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  background-image: url(assets/img/fondo-con-letras.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  height: 30rem;
+  color: #ffffffd0;
+}
+
+.navbar {
+  background-color: #ffb6c1;
+  border: #ffffff;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+.about {
+  margin-top: 15px;
+}
+.img-rounded {
+  padding: 1rem;
+  border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+}
+.img-rounded-2 {
+  border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+}
+.text-about {
+  padding-top: 3rem;
+}
+.cards {
+  padding-top: 8rem;
+}
