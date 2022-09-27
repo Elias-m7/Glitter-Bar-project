@@ -106,10 +106,10 @@ body {
   border-radius: 5%;
 }
 
-.footer {
+/* .footer {
   margin-top: 2rem;
   background-color: #150d1a;
-}
+} */
 .footer_copyright {
   background-color: rgba(0, 0, 0, 0.2);
 }
