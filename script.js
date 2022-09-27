@@ -1,24 +1,18 @@
-document.getElementById("button-up").addEventListener("click", scrollUp);
+$(document).ready(function () {
+  $(".ir-arriba").click(function () {
+    $("body, html").animate(
+      {
+        scrollTop: "0px",
+      },
+      300
+    );
+  });
 
-function scrollUp() {
-  var currentScroll = document.documentElement.scrollTop;
-
-  if (currentScroll > 0) {
-    window.requestAnimationFrame(scrollUp);
-    window.scrollTo(0, currentScroll - currentScroll / 30);
-  }
-}
-
-///
-
-buttonUp = document.getElementById("button-up");
-
-window.onscroll = function () {
-  var scroll = document.documentElement.scrollTop;
-
-  if (scroll > 500) {
-    buttonUp.style.transform = "scale(1)";
-  } else if (scroll < 500) {
-    buttonUp.style.transform = "scale(0)";
-  }
-};
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 0) {
+      $(".ir-arriba").slideDown(300);
+    } else {
+      $(".ir-arriba").slideUp(300);
+    }
+  });
+});
