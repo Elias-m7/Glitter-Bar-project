@@ -3,7 +3,7 @@ function irArriba() {
     let scroll = document.documentElement.scrollTop;
     let botonArriba = document.getElementById("buttonUp");
 
-    if (scroll > 400) {
+    if (scroll > 600) {
       botonArriba.style.right = 20 + "px";
     } else {
       botonArriba.style.right = -100 + "px";
