@@ -20,7 +20,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px;
-  height: 30rem;
+  height: 37rem;
   color: #ffffffd0;
 }
 .header-text {
@@ -100,8 +100,8 @@ body {
 }
 .img-medios-de-pago {
   display: flex;
-  margin: auto;
-  height: 500px;
+  margin: 2rem auto;
+  height: 550px;
   border-radius: 5%;
 }
 
@@ -112,7 +112,8 @@ body {
 .footer_copyright {
   background-color: rgba(0, 0, 0, 0.2);
 }
-.ir-arriba {
+
+#buttonUp {
   width: 50px;
   height: 50px;
   background: #eeea08;
@@ -127,10 +128,11 @@ body {
   right: 50px;
   cursor: pointer;
   border: 4px solid transparent;
-  transition: all 300ms ease;
+  transition: all 500ms ease;
   /* transform: scale(0); */
 }
-.ir-arriba:hover {
+
+#buttonUp:hover {
   transform: scale(1.1);
   border-color: rgba(255, 253, 144, 0.849);
 }
